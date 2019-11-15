@@ -12,7 +12,7 @@ class Triangle
     elsif @side_one + @side_two <= @side_three
       raise TriangleError
     else 
-      if 
+      if (@side_one & @side_two)
       
       
       
