@@ -14,7 +14,7 @@ class Triangle
     else 
       if (@side_one == @side_two) && (@side_two == @side_three)
         :equilateral
-        elsif (@side_one == @side_two) || (@side_two == @side_three) || @s
+        elsif (@side_one == @side_two) || (@side_two == @side_three) || (@side_one == @side_three)
       end
     end
       
