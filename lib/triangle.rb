@@ -9,7 +9,7 @@ class Triangle
   def kind
     if @side_one <=
       raise TriangleError
-    elsif 
+    elsif @side_one +
   end
   
   
