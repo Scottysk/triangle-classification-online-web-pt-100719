@@ -10,6 +10,7 @@ class Triangle
     if @side_one <=
       raise TriangleError
     elsif @side_one + @side_two <= @side_three
+      raise TriangleError
   end
   
   
