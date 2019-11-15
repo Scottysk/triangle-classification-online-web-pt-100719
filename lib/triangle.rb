@@ -14,6 +14,8 @@ class Triangle
     else 
       if (@side_one == @side_two) && (@side_two == @side_three)
         :equilateral
+      end
+    end
       
       
       
